@@ -1,0 +1,11 @@
+#catFacts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+#refreshBtn {
+    font-size: 15pt;
+    background-color: turquoise;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Battle WC - Example 3</title>
+  <script type="module" src="./app.js"></script>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .stack { display:grid; gap: 12px; max-width: 900px; }
+  </style>
+</head>
+<body>
+  <h1>Example 3: Round-based Battle</h1>
+
+  <div class="stack">
+    <div class="grid">
+      <player-status id="p1"></player-status>
+      <player-status id="p2"></player-status>
+    </div>
+
+    <battle-controls></battle-controls>
+    <battle-log></battle-log>
+  </div>
+</body>
+</html>
